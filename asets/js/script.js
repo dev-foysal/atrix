@@ -146,7 +146,7 @@ var swiper = new Swiper(".project-slider", {
           slidesPerView: 2,
         },
         991: {
-          slidesPerView: 2,
+          slidesPerView: 3,
         },
       },
   });
