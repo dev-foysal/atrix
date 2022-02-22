@@ -1,0 +1,139 @@
+.support {
+    position: absolute;
+    left: 8%;
+    margin-top: -11rem;
+    padding-bottom: 5rem;
+    z-index: 1;
+
+  .support-content {
+      border-radius: 1rem;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+      width: 100%;
+      padding-bottom: 5rem;
+      background: $white;
+      box-shadow: $box-shadow;
+      padding-left: 3.5rem;
+
+      .icons {
+          width: 9rem;
+          height: 9rem;
+          line-height: 5rem;
+          background-color: #f7f7f7;
+          border-radius: 50%;
+          display: inline-block;
+          margin-top: 3rem;
+
+          a {
+
+              .icon-idea {
+                  font-size: 4.5rem;
+                  background: rgb(117,152,206);
+                  background: linear-gradient(108deg, rgba(117,152,206,1) 0%, rgba(222,141,155,1) 66%); 
+                  -webkit-background-clip: text;
+                  -moz-background-clip: text;
+                  background-clip: text;
+                  -webkit-text-fill-color:transparent;
+                  line-height: 2;
+                  text-align: center;
+                  margin-left: 2rem;
+              }
+
+              .icon-dollar-down {
+                  font-size: 4.5rem;
+                  background: rgb(117,152,206);
+                  background: linear-gradient(108deg, rgba(117,152,206,1) 0%, rgba(222,141,155,1) 66%); 
+                  -webkit-background-clip: text;
+                  -moz-background-clip: text;
+                  background-clip: text;
+                  -webkit-text-fill-color:transparent;
+                  line-height: 2;
+                  text-align: center;
+                  margin-left: 3rem;
+              }
+
+              .icon-customer-service {
+                  font-size: 4.5rem;
+                  background: rgb(117,152,206);
+                  background: linear-gradient(108deg, rgba(117,152,206,1) 0%, rgba(222,141,155,1) 66%); 
+                  -webkit-background-clip: text;
+                  -moz-background-clip: text;
+                  background-clip: text;
+                  -webkit-text-fill-color:transparent;
+                  line-height: 2;
+                  text-align: center;
+                  margin-left: 2.3rem;
+              }
+              
+          }
+      }
+      .icon-text {
+          @include title-text(2.5rem);
+          text-align: left;
+          font-weight: 500;
+          line-height: 30px;
+          color: $black;
+          margin-top: -7rem;
+          margin-left: 7.5rem;
+          padding: 0 4rem;
+      }
+  }
+}
+
+@media (max-width:991px) {
+    .support {
+        width: 100%;
+
+        left: 0;
+        
+        .support-content {
+
+            .icon-text {
+                padding: 0;
+                margin-left: 12rem;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .support {
+        width: 100%;
+
+        left: 0;
+        
+        .support-content {
+
+            .icon-text {
+                padding: 0;
+                margin-left: 12rem;
+            }
+        }
+    }
+}
+@media (max-width: 450px) {
+
+    .support {
+        width: 100%;
+        left: 2%;
+        
+        .support-content {
+
+            .icons {
+                margin-top: 2rem;
+                margin-bottom: 3rem;
+            }
+
+            .icon-text {
+                font-size: 2rem;
+                margin-top: -10.5rem;
+                padding-bottom: -2rem;
+            }
+        }
+        .support-dis {
+            margin: 1.5rem 0;
+        }
+    }
+}

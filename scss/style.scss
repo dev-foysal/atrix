@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+
+// Import the components
+
+@import './components/animations';
+@import './components/buttons';
+@import './components/mixins';
+@import './components/typography';
+
+//Import the sections
+
+@import './sections/navbar';
+@import './sections/banner';
+@import './sections/support';
+@import './sections/about';
+@import './sections/service-one';
+@import './sections/choose-atrix';
+@import './sections/team';
+@import './sections/counter';
+@import './sections/expart';
+@import './sections/project';
+@import './sections/testimonials';
+@import './sections/solution';
+@import './sections/blogs';
+@import './sections/subscribe';
+@import './sections/footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    -webkit-font-smoothing: antialiased;
+}
+
+$purple-dark: #649ad6;
+$purple-light:  #df8d9b;
+$black: #000;
+$white: #fff;
+$light-color: #666;
+$light-bg: #eee;
+$border: .1rem solid $purple-dark;
+$box-shadow: 0px 0px 45px .8px rgba(0,0,0,0.1);
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: rgb(117,152,206);
+        background: linear-gradient(108deg, rgba(117,152,206,1) 0%, rgba(222,141,155,1) 66%);
+    }
+}
+body {
+    overflow-x: hidden;
+}
+
+ul li {
+    list-style: none !important;
+    text-decoration: none !important;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+
+ /*icomoon font css*/
+ @font-face {
+    font-family: 'icomoon';
+    src:  url('../../icomoon/fonts/');
+    src:  url('../../icomoon/fonts/icomoon.eot') format('embedded-opentype'),
+      url('../../icomoon/fonts/icomoon.ttf') format('truetype'),
+      url('../../icomoon/fonts/icomoon.woff') format('woff'),
+      url('../../icomoon/fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-play:before {
+    content: "\e90b";
+  }
+  .icon-left-arrow:before {
+    content: "\e900";
+  }
+  .icon-check-mark:before {
+    content: "\e901";
+  }
+  .icon-service-logo-03:before {
+    content: "\e902";
+  }
+  .icon-service-logo-02:before {
+    content: "\e903";
+  }
+  .icon-service-logo-01:before {
+    content: "\e904";
+  }
+  .icon-customer-service:before {
+    content: "\e905";
+  }
+  .icon-dollar-down:before {
+    content: "\e906";
+  }
+  .icon-idea:before {
+    content: "\e907";
+  }
+  .icon-right-arrow:before {
+    content: "\e908";
+  }
+  .icon-search:before {
+    content: "\e909";
+  }
+  .icon-square-dot:before {
+    content: "\e90a";
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: .8rem 1.7rem;
+    color: $white;
+    display: inline-block;
+    text-transform: uppercase;
+    background: rgb(60,158,233);
+    background: linear-gradient(68deg, rgba(60,158,233,1) 0%, rgba(222,141,155,1) 74%);
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+/*scroll to top*/
+
+.button {
+  display: flex;
+  position: fixed;
+  padding: .5rem 1rem;
+  background: rgba(211, 209, 209, 0.4);
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  bottom: 15rem;
+  right: 2.5rem;
+  cursor: pointer;
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  .bar-inner
+{
+      
+      
+    .icon-right-arrow {
+      display: inline-block;
+      color: #df8d9b;
+      font-size: 1.5rem;
+      margin-left: 1rem;
+      padding-top: .4rem;
+      
+      
+    }
+  }
+
+  .scroll-bar-text {
+    color: #df8d9b;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+
+  &:hover {
+    background: rgb(117,152,206);
+    background: linear-gradient(108deg, rgba(117,152,206,1) 10%, rgba(222,141,155,1) 80%);
+
+    .icon-right-arrow{
+      color: #fff;
+    }
+
+    .scroll-bar-text {
+      color: #fff;
+    }
+  }
+}
+
+.button.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media (max-width:768px) {
+  .button {
+    display: none;
+  }
+}

@@ -1,0 +1,124 @@
+/*solution section start*/
+.solution {
+    background: url(/image/solution-bg.jpg);
+    min-height: 550px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+    .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: $black;
+        opacity: .7;
+    }
+
+    .solution-img-top img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1234;
+    }
+    .solution-img-bottom img{
+        width: 80rem;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 12;
+    }
+
+    .solution-content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        
+        
+        h3{
+            font-size: 4rem;
+            color: $white;
+            text-align: center;
+            margin: 0 32rem;
+            padding-top: 12rem;
+            
+        }
+        p {
+            font-size: 1.6rem;
+            color: $white;
+            margin: 0 35rem;
+            padding-top: 3rem;
+            text-align: center;
+            
+        }
+        .btn {
+            position: absolute;
+            margin: 0;
+            top: 67%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 12345;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+}
+    }
+}
+@media (max-width:991px) {
+    .solution {
+
+        .solution-content {
+
+            h3 {
+                margin: 0;
+            }
+            p {
+                margin: 0 10rem;
+            }
+
+        }
+    }
+}
+@media (max-width:768px) {
+    .solution {
+        .solution-img-top {
+            img {
+                display: none;
+            }
+        }
+        .solution-img-bottom {
+            img {
+                display: none;
+            }
+        }
+
+        .solution-content {
+
+            .btn {
+                top: 83%;
+            }
+            
+        }
+    }
+}
+
+@media (max-width:450px) {
+    .solution {
+        .solution-content {
+            p {
+                margin: 0 5rem;
+            }
+            .btn {
+                top: 88%;
+            }
+        }
+    }
+}
+/*solution section end*/

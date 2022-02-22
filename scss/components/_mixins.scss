@@ -1,0 +1,15 @@
+
+@mixin  title-text($titleSize) {
+    font-size: $titleSize;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: $black;
+    text-align: center;
+}
+@mixin grap-text($grapText) {
+    font-size: $grapText;
+    line-height: 1.5;
+    color: $light-color;
+    font-weight: 400;
+    margin-bottom: 0;
+}

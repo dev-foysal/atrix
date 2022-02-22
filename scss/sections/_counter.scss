@@ -1,0 +1,34 @@
+/*counter section start*/
+.counter {
+    margin-bottom: 10rem;
+    
+
+    span {
+        font-size: 7rem;
+        font-weight: bold;
+        text-align: center;
+        background: rgb(117,152,206);
+        background: linear-gradient(108deg, rgba(117,152,206,1) 0%, rgba(222,141,155,1) 66%); 
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color:transparent;
+        display: inline-block;
+    }
+    span {
+        font-size: 7rem;
+        font-weight: bold;
+        text-align: center;
+        background: rgb(117,152,206);
+        background: linear-gradient(108deg, rgba(117,152,206,1) 0%, rgba(222,141,155,1) 66%); 
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color:transparent;
+    }
+    p {
+        @include grap-text(1.6rem);
+        color: $black;
+    }
+}
+/*counter section end*/

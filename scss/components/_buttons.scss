@@ -1,0 +1,47 @@
+$purple-dark: #649ad6;
+$purple-light:  #df8d9b;
+$black: #000;
+$white: #fff;
+$light-color: #666;
+$light-bg: #eee;
+$border: .1rem solid $purple-dark;
+$box-shadow: 0px 0px 45px .8px rgba(0,0,0,0.1);
+
+.btn{
+    margin-top: 1rem;
+    padding:1rem 3rem;
+    display: inline-block;
+    color:$black;
+    background: $white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.6rem;
+    transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+
+    &:focus{
+        outline: 0;
+        box-shadow: none;
+    }
+
+    span {
+        font-size: 1.3rem;
+        line-height: 1.5;
+        margin-left: .5rem;
+        margin-top: 1rem;
+        transition: all .01s ease;
+        -webkit-transition: all .01s ease;
+        -moz-transition: all .01s ease;
+        -ms-transition: all .01s ease;
+        -o-transition: all .01s ease;
+}
+ 
+    &:hover{
+        background: rgb(117,152,206);
+        background: linear-gradient(108deg, rgba(117,152,206,1) 0%, rgba(222,141,155,1) 66%);
+        color:$white;
+    }
+ }

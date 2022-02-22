@@ -1,0 +1,136 @@
+/*services one section start*/
+
+.service-one {
+    background: #f5f5f5;
+    padding-bottom: 15rem;
+
+    .service-title-content {
+        text-align: center;
+
+        .heading {
+            margin-top: 15rem;
+            margin-bottom: 1.5rem;
+        }
+        .text-title {
+            @include title-text(3.5rem);
+            color: $black;
+            margin: 0 35rem;
+            padding-bottom: 2rem;
+        }
+        .service-description {
+            @include grap-text(1.8rem);
+            color: #888888;
+            margin: 0 30rem;
+            padding-bottom: 3.5rem;
+        }
+    }
+    .service-one-card {
+
+        .card {
+            margin: 0 .5rem;
+            border-radius: 1rem;
+            -webkit-border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            -ms-border-radius: 1rem;
+            -o-border-radius: 1rem;
+            box-shadow: $box-shadow;
+            
+            .card-image{
+                margin-top: 4rem;
+                position: relative;
+
+                .card-icon {
+                    position: absolute;
+                    top: 20%;
+                    left: 45%;
+                    font-size: 4.5rem;
+                    background: rgb(117,152,206);
+                    background: linear-gradient(108deg, rgba(117,152,206,1) 0%, rgba(222,141,155,1) 66%); 
+                    -webkit-background-clip: text;
+                    -moz-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color:transparent;
+                    cursor: pointer;
+                    
+                }
+            }
+            .card-body {
+
+                .card-title {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    padding: 0 5rem;
+                    margin: 2rem 0;
+                }
+
+                .card-text {
+                    font-size: 1.6rem;
+                    color: #888888;
+                    margin-bottom: 2rem;
+                    padding: 0 3rem;
+                }
+                .btn {
+                    margin-top: 0rem;
+                    margin-bottom: 2rem;
+                    text-transform: capitalize;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+
+                    span {
+                        margin-left: .5rem;
+                    }
+                    
+                    &:hover {
+                        background: none;
+                        color: $purple-light;
+                        transform: scale(1.1);
+                        -webkit-transform: scale(1.1);
+                        -moz-transform: scale(1.1);
+                        -ms-transform: scale(1.1);
+                        -o-transform: scale(1.1);
+                        transition: .4s;
+                        -webkit-transition: .4s;
+                        -moz-transition: .4s;
+                        -ms-transition: .4s;
+                        -o-transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:991px) {
+    .service-one {
+        
+        .service-title-content {
+
+            .heading {
+                margin-top: 10rem;
+            }
+            .text-title {
+                margin: 0 10rem;
+            }
+            .service-description {
+                margin: 0 10rem;
+            }
+        }
+    }
+}
+
+@media (max-width:450px) {
+    
+    .service-one {
+
+        .service-title-content {
+
+            .text-title {
+                margin: 0;
+            }
+
+            .service-description {
+                margin: 0 3rem;
+            }
+        }
+    }
+}
+/*services one section end*/

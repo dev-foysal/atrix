@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?duy3t4');
+  src:  url('fonts/icomoon.eot?duy3t4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?duy3t4') format('truetype'),
+    url('fonts/icomoon.woff?duy3t4') format('woff'),
+    url('fonts/icomoon.svg?duy3t4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-play:before {
+  content: "\e90b";
+}
+.icon-left-arrow:before {
+  content: "\e900";
+}
+.icon-check-mark:before {
+  content: "\e901";
+}
+.icon-service-logo-03:before {
+  content: "\e902";
+}
+.icon-service-logo-02:before {
+  content: "\e903";
+}
+.icon-service-logo-01:before {
+  content: "\e904";
+}
+.icon-customer-service:before {
+  content: "\e905";
+}
+.icon-dollar-down:before {
+  content: "\e906";
+}
+.icon-idea:before {
+  content: "\e907";
+}
+.icon-right-arrow:before {
+  content: "\e908";
+}
+.icon-search:before {
+  content: "\e909";
+}
+.icon-square-dot:before {
+  content: "\e90a";
+}
