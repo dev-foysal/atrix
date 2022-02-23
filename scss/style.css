@@ -617,9 +617,9 @@
   background: #fff;
   gap: 2rem;
   height: 100%;
-  z-index: 1123456;
   padding: 13rem 2.5rem 2.5rem 2.5rem;
   border-right: 0.1rem solid #649ad6;
+  z-index: 12345;
 }
 
 .side-bar.active {
