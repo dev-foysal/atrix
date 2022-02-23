@@ -20,6 +20,10 @@ document.querySelector('#close-search').onclick = () =>{
     searchForm.classList.remove('active');
 }
 
+window.onscroll = () => {
+  searchForm.classList.remove('active');
+}
+
 //side bar
 let sideBar = document.querySelector('.side-bar')
 
