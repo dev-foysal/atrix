@@ -1,7 +1,7 @@
 let menu = document.querySelector('.header .menu');
 
 document.querySelector('.mobile-menu-trigger').onclick = () => {
-    menu.classList.toggle('active');
+    menu.classList.add('active');
 };
 
 document.querySelector('.mobile-menu-close').onclick = () =>{
@@ -22,6 +22,7 @@ document.querySelector('#close-search').onclick = () =>{
 
 window.onscroll = () => {
   searchForm.classList.remove('active');
+  menu.classList.remove('active');
 }
 
 //side bar
