@@ -1400,6 +1400,9 @@
   }
 }
 @media (max-width: 450px) {
+  .about {
+    padding-top: 25rem;
+  }
   .about .about-title {
     margin-right: 0;
   }
