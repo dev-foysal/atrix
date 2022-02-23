@@ -329,11 +329,11 @@ $box-shadow: 0px 0px 45px .8px rgba(0,0,0,0.1);
     background: $white;
     gap:2rem;
     height: 100%;
-    z-index: 1234;
     padding: 13rem 2.5rem 2.5rem 2.5rem;
     border-right: $border;
 
     &.active{
+        z-index: 12345;
         left: 0;
         box-shadow: 0 0 0 100vw rgba(33, 111, 201, 0.3);
     }
