@@ -1373,7 +1373,7 @@
 
 @media (max-width: 991px) {
   .about {
-    margin: 24rem 0;
+    margin: 10rem 0;
   }
   .about .video-area .image {
     margin-left: 0 !important;
@@ -1394,11 +1394,12 @@
     margin-left: 55rem !important;
     margin-top: -4rem !important;
   }
+
+  .company-logo-slider {
+    padding-bottom: 10rem !important;
+  }
 }
 @media (max-width: 450px) {
-  .about {
-    margin-top: 40rem;
-  }
   .about .about-title {
     margin-right: 0;
   }
@@ -1417,8 +1418,9 @@
   }
 
   .company-logo-slider {
-    margin-top: -10rem;
-    margin-left: 9rem;
+    margin-top: -2rem !important;
+    text-align: center;
+    padding-bottom: 8rem !important;
   }
 }
 /*about us section end*/
