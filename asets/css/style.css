@@ -1218,6 +1218,7 @@
     font-size: 2rem;
     margin-top: -10.5rem;
     padding-bottom: -2rem;
+    margin-right: 3rem;
   }
   .support .support-dis {
     margin: 1.5rem 0;
@@ -1401,7 +1402,7 @@
 }
 @media (max-width: 450px) {
   .about {
-    padding-top: 25rem;
+    padding-top: 30rem;
   }
   .about .about-title {
     margin-right: 0;
@@ -1689,7 +1690,7 @@
     padding-top: 7rem;
   }
   .choose-us .atrix-about .box-two .box-content p {
-    padding-right: 3rem;
+    padding-right: 4rem;
   }
   .choose-us .atrix-about .curve-top-right {
     right: -5rem;
