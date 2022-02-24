@@ -2588,13 +2588,15 @@
   z-index: 12345;
 }
 .subscription .container input {
+  position: relative;
+  z-index: 1;
   margin: 1rem 0;
   padding: 1.2rem 1.4rem;
   font-size: 1.7rem;
   border: none;
   text-decoration: none;
   margin-top: 9rem;
-  margin-left: 6rem;
+  margin-left: 5rem;
   border-radius: 0.6rem;
   -webkit-border-radius: 0.6rem;
   -moz-border-radius: 0.6rem;
@@ -2602,6 +2604,8 @@
   -o-border-radius: 0.6rem;
 }
 .subscription .container .btn {
+  position: relative;
+  z-index: 1;
   margin-top: -0.7rem;
   margin-left: 2rem;
   padding: 1.1rem 2.5rem;
