@@ -2223,13 +2223,14 @@
 }
 .testimonial .right-bottom-shape {
   position: absolute;
-  right: 0;
+  right: 6.4rem;
   bottom: 0;
   z-index: 1;
 }
 .testimonial .right-bottom-shape img {
   width: 30rem;
   height: 25rem;
+  overflow: hidden;
 }
 .testimonial .testimonial-title-content {
   text-align: center;
