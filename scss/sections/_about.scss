@@ -38,7 +38,7 @@
             position: relative;
             width: 97rem;
             height: auto;
-            margin-left: 10rem !important;
+            margin-left: 8rem !important;
             img {
                 width: 100%;
                 border-radius: 1rem;
@@ -63,41 +63,47 @@
                 -moz-border-radius: 1rem;
                 -ms-border-radius: 1rem;
                 -o-border-radius: 1rem;
-                z-index: 1;
             }
 
             .icon {
                 
-                .icon-play {
-                    position: absolute;
-                    top: 44%;
-                    left: 48%;
-                    font-size: 7rem;
-                    color: $white;
-                    z-index: 123456789;
-                    cursor: pointer;
-                    -webkit-animation-delay: .5s;
-                    animation-delay: .5s;
-                    content: "";
-                    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.9);
-                    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.9);
-                    -webkit-animation: ripple 3s infinite;
-                    animation: ripple 3s infinite;
-                    -webkit-transition: all .4s ease;
-                    transition: all .4s ease;
-                    border-radius: 50%;
-                    -webkit-border-radius: 50%;
-                    -moz-border-radius: 50%;
-                    -ms-border-radius: 50%;
-                    -o-border-radius: 50%;
+                a {
+
+                    .icon-play {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-size: 7rem;
+                        color: $white;
+                        z-index: 1000;
+                        -webkit-animation-delay: .5s;
+                        animation-delay: .5s;
+                        content: "";
+                        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.9);
+                        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.9);
+                        -webkit-animation: ripple 3s infinite;
+                        animation: ripple 3s infinite;
+                        -webkit-transition: all .4s ease;
+                        transition: all .4s ease;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        -webkit-transform: translate(-50%, -50%);
+                        -moz-transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        -o-transform: translate(-50%, -50%);
+                    }
                 }
             }
         }
 
         .shape-1 {
             position: absolute;
-            margin-left: 7rem !important;
-            margin-top: 30rem !important;
+            left: 0 !important;
+            top: 35% !important;
             width: 25rem;
             height: 25rem;
             background: #f7f7f7;
@@ -111,16 +117,16 @@
 
         .shape-2 {
             position: absolute;
-            margin-left: 3rem !important;
-            margin-top: 30rem !important;
+            left: -2% !important;
+            top: 35% !important;
             width: 11.7rem;
             height: 11.7rem;
             z-index: -1;
         }
         .shape-3 {
             position: absolute;
-            margin-left: 98rem !important;
-            margin-top: -7rem !important;
+            left: 84% !important;
+            top: -12% !important;
             width: 11.7rem;
             height: 11.7rem;
             z-index: -1;
@@ -128,8 +134,8 @@
 
         .shape-4 {
             position: absolute;
-            margin-left: 95rem !important;
-            margin-top: -4rem !important;
+            left: 72% !important;
+            top: -15% !important;
             width: 25rem;
             height: 25rem;
             background: #f7f7f7;
@@ -146,6 +152,7 @@
 @media (max-width:991px) {
     .about {
         margin: 10rem 0;
+        padding-top: 12rem;
 
         .video-area {
 
@@ -177,10 +184,16 @@
     }
 }
 
+@media (max-width: 768px) {
+    .about {
+        padding-top: 14rem;
+    }
+}
+
 @media (max-width:450px) {
     
     .about {
-       padding-top: 30rem;
+       padding-top: 23rem !important;
 
         .about-title {
             margin-right: 0;
@@ -194,15 +207,6 @@
         .video-area {
             margin-top: 10rem;
             margin-left: 1rem;
-
-            .image {
-                .icon {
-                    .icon-play {
-                        top: 31%;
-                        left: 43%;
-                    }
-                }
-            }
         }
     }
     .company-logo-slider {

@@ -213,8 +213,8 @@
             }
 
             .project-navigation {
-                left: 100%;
-                top: 64%;
+                left: 84%;
+                top: 58%;
             }
         }
 
@@ -229,9 +229,12 @@
     .project {
         .project-content {
             .project-navigation {
-                left: 91%;
-                top: 70%;
+                left: 84%;
+                top: 58%;
             }
+        }
+        .auto-container {
+            margin-left: 0;
         }
     }
 }
@@ -242,10 +245,6 @@
             .project-navigation {
                 display: none;
             }
-        }
-
-        .auto-container {
-            margin-left: 0;
         }
     }
 }

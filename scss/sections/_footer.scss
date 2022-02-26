@@ -67,6 +67,8 @@
         @include grap-text(1.6rem);
         color: $black;
         margin-right: 10rem;
+        margin-bottom: 1rem;
+        line-height: 2;
     }
     .social-icons {
 
@@ -121,6 +123,14 @@
             color: $purple-dark;
         }
     }
+
+    span {
+        display: block;
+        padding: 1rem 0;
+    }
+    .social-icons {
+        margin-top: 3rem;
+    }
 }
 //footer bottom
 .footer-bottom {
@@ -169,13 +179,7 @@
             margin-right: 0;
             padding-bottom: .5rem;
         }
-        span {
-            display: block;
-            padding: 1.5rem 0;
-        }
-        .social-icons {
-            margin-top: 3rem;
-        }
+        
     }
 }
 @media (max-width:450px) {

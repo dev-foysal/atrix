@@ -33,7 +33,10 @@
             -moz-border-radius: 1rem;
             -ms-border-radius: 1rem;
             -o-border-radius: 1rem;
-            box-shadow: $box-shadow;
+
+            &:hover {
+                box-shadow: $box-shadow;
+            }
             
             .card-image{
                 margin-top: 4rem;
@@ -61,6 +64,11 @@
                     font-weight: bold;
                     padding: 0 5rem;
                     margin: 2rem 0;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $purple-light;
+                    }
                 }
 
                 .card-text {
@@ -77,6 +85,7 @@
                     font-weight: bold;
 
                     span {
+                        font-size: 1rem;
                         margin-left: .5rem;
                     }
                     
@@ -124,7 +133,7 @@
         .service-title-content {
 
             .text-title {
-                margin: 0;
+                margin: 0 2rem;
             }
 
             .service-description {

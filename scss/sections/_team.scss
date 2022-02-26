@@ -202,7 +202,7 @@
             }
             
             h3 {
-                padding: 0 10rem;
+                padding: 0 5rem;
             }
 
             p {
@@ -218,9 +218,11 @@
 @media (max-width:450px) {
     .team {
         .team-content-heading {
+
             h3 {
                 padding: 0;
             }
+        
             p {
                 padding: 0 5rem;
             }
