@@ -190,10 +190,8 @@ p {
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
-  .bar-inner
-{
-      
-      
+  .bar-inner {
+         
     .icon-right-arrow {
       display: inline-block;
       color: #df8d9b;
@@ -209,13 +207,13 @@ p {
     color: #df8d9b;
     font-size: 1.3rem;
     text-transform: capitalize;
-  }
+}
 
   &:hover {
     background: rgb(117,152,206);
     background: linear-gradient(108deg, rgba(117,152,206,1) 10%, rgba(222,141,155,1) 80%);
 
-    .icon-right-arrow{
+        .icon-right-arrow{
       color: #fff;
     }
 
