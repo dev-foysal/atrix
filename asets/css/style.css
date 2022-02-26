@@ -776,6 +776,7 @@
 }
 .home .home-slider-image {
   width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: center !important;
@@ -786,7 +787,8 @@
 }
 .home .home-slider-image img {
   width: 100%;
-  height: 70rem;
+  height: 75rem;
+  object-fit: cover;
 }
 .home .home-slider-image .overlay {
   position: absolute;
@@ -2086,7 +2088,7 @@
   -webkit-text-fill-color: transparent;
 }
 .project .auto-container {
-  margin-left: 12rem;
+  margin-left: 14rem;
 }
 .project .auto-container .card .project-thumb {
   position: relative;
@@ -3034,13 +3036,13 @@ p {
 .button .bar-inner .icon-right-arrow {
   display: inline-block;
   color: #df8d9b;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-left: 1rem;
   padding-top: 0.4rem;
 }
 .button .scroll-bar-text {
   color: #df8d9b;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-transform: capitalize;
 }
 .button:hover {
